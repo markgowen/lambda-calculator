@@ -1,22 +1,89 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 42%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+  margin: auto;
 }
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 80px;
+  width: 300px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+  margin: auto;
+}
+
+.logo {
+  width: 20%;
+  margin: 20px 20px 5px;
+}
+
+.number-button,
+.operator-button,
+.special-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  box-shadow: 1px 1px black;
+  color: white;
+  margin: 10px;
+}
+
+.btn-container {
+  width: 90%;
+  display: flex;
+  margin: 10px auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.spcBtn {
+  display: flex;
+}
+
+.numBtn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.opBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.special-button {
+  background: #1f61af;
+}
+
+.operator-button {
+  background: #3cb5e4;
+}
+
+.number-button {
+  background: #113c77;
+}
